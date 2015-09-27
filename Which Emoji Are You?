@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Which Emoji Are You?</title>
+  <style>
+    div {
+      border-radius: 5px;
+    }
+    .emoji{
+      max-width: 600px;
+      width: 100%;
+      margin-top: 30px;
+    }
+    #header {
+      z-index: 1;
+      position: relative;
+      width: 100%;
+      margin-top: -20px;
+      height: 40px;
+      background-color: #F4FA58;
+      margin-bottom: 10px;
+    }
+    .title{
+      float: center;
+      padding: auto;
+      font-family: Fraktur ;
+      color: #FA5858;
+    }
+    #questions{
+      text-align: center;
+      z-index: 1;
+      position: relative;
+      width: 100%;
+      margin-top: 50px;
+      height: 43px;
+      background-color: #F2F5A9;
+      margin-bottom: 10px;
+    }
+    #answers{
+      text-align: center;
+      z-index: 1;
+      position: relative;
+      width: 100%;
+      margin-top: 20px;
+      height: 80px;
+      background-color: #CDFFFC;
+      margin-bottom: 10px;
+    }
+    body {
+      background-color: #C6E2FF;
+      height: 100%;
+      width: 100%; 
+    }
+    h1 {
+      color: #FA5858;
+      text-align: center;
+    }
+    p {
+      font-family: Fraktur;
+      color: #FA5858;
+      font-size: 20px;
+      text-align: center;
+    }
+    img {
+      height:100% ;
+      width: 100%;
+      margin: auto;
+    }
+    a:hover{
+      text-decoration: none;
+      color:#DF3A01;
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="header">
+	 <h1 class="title">Which Emoji Are You?</h1>
+  </div>
+  <img src="http://s29.postimg.org/xpqca55tz/emoji.jpg"/>
+	<blockquote>
+  <form>
+
+    <div id="questions">
+		  <p>1. Which TV Show best discribe you? (Click on name to see poster)</p>
+    </div>
+        <div id="answers">
+    			<input type="radio" name="tvshow" id="three's company" value="Three's Company"> <label for="three's company"><a href="http://imgc.allpostersimages.com/images/P-473-488-90/56/5663/HWGUG00Z/posters/three-s-company.jpg">Three's Company</a></label>
+    			<br><input type="radio" name="tvshow" id="grey's anatomy" value="Grey's Anatomy"> <label for="grey's anatomy"><a href="http://www.btchflcks.com/wp-content/uploads/2014/02/Greys-Anatomy-Poster.jpg">Grey's Anatomy</a></label>
+    			<br><input type="radio" name="tvshow" id="hannibal" value="Hannibal"> <label for="hannibal"><a href="http://stuffpoint.com/hannibal/image/222708-hannibal-hannibal-poster.jpg">Hannibal</a></label>
+    			<br><input type="radio" name="tvshow" id="pokemon" value="Pokenom"> <label for="pokemon"><a href="https://image.tmdb.org/t/p/w1920/eq2lq7vskvEz1NueAaSHiJdL7id.jpg">Pokemon</a></label>
+        </div>
+
+    <div id="questions">
+		  <p>2. From the movies listed below, which one would you prefer to watch? (Click on name to see poster)</p>
+    </div>
+        <div id="answers">
+   				<input type="radio" name="movies" id="big daddy" value="Big Daddy"> <label for="big daddy"><a href="http://www.dvdsreleasedates.com/posters/800/B/Big-Daddy-movie-poster.jpg">Big Daddy</a></label>
+    			<br><input type="radio" name="movies" id="the intern" value="The Intern"> <label for="the intern"><a href="http://www.filmoria.co.uk/wp-content/uploads/2015/08/The-Intern-poster.jpg">The Intern</a></label>
+   	 			<br><input type="radio" name="movies" id="no escape" value="No Escape"> <label for="no escape"><a href="http://1.bp.blogspot.com/-NR9AZSZLCeg/VRMnn0fJ2zI/AAAAAAAAHTE/JOj5GpUlqx4/s1600/no_escape_movie_poster.jpg">No Escape</a></label>
+    			<br><input type="radio" name="movies" id="minions" value="Minions"> <label for="minions"><a href="http://www.movienewz.com/img/gallery/minions/posters/minions_movie_poster_2.jpg">Minions</a></label>
+        </div>
+
+    <div id="questions">
+		  <p>3. What is your favorite color from the list below? (Choose as many as you want)</p>
+    </div>
+        <div id="answers">
+   				<input type="checkbox" name="color" id="blue" value="Blue"> <label for="blue">Blue</label> 
+    			<br><input type="checkbox" name="color" id="red" value="Red"> <label for="red">Red</label>
+   	 			<br><input type="checkbox" name="color" id="black" value="Black"> <label for="black">Black</label> 
+    			<br><input type="checkbox" name="color" id="yellow" value="Yellow"> <label for="yellow">Yellow</label> 
+        </div>
+
+    <div id="questions">
+      <p>4. If you drink coffee, which one would you prefer? (Click on type to know more)<p>
+    </div>
+        <div id="answers">
+          <input type="radio" name="coffee" id="latte" value="Latte"> <label for="latte"><a href="http://s11.postimg.org/cuyjycaxr/Latte.png">Latte</a></label>
+          <br><input type="radio" name="coffee" id="macchiato" value="Macchiato"> <label for="macchiato"><a href="http://s23.postimg.org/cmu71svwn/Macchiato.png">Macchiato</a></label>
+          <br><input type="radio" name="coffee" id="espresso" value="Espresso"> <label for="espresso"><a href="http://s13.postimg.org/yd27dffwz/Esspresso.png">Esspresso</a></label>
+          <br><input type="radio" name="coffee" id="i don't drink coffee" value="I don't drink coffee"> <label for="i don't drink coffee"><a href="http://media-cache-ec0.pinimg.com/736x/57/75/44/57754498f7b28fd78615bb4b6fc7e46a.jpg">I don't drink coffee</a></label>
+        </div>
+    
+    <div id="questions">
+		  <p>5. What is your favorite perfume brand?</p>
+    </div>
+        <div id="answers">
+   				<input type="radio" name="perfume" id="chanel" value="Chanel"> <label for="chanel">Chanel</label>
+    			<br><input type="radio" name="perfume" id="burberry" value="Burberry"> <label for="burberry">Burberry</label>
+   	 			<br><input type="radio" name="perfume" id="davidoff" value="Davidoff"> <label for="davidoff">Davidoff</label>
+    			<br><input type="radio" name="perfume" id="bath & body works" value="Bath & Body Works"> <label for="bath & body works">Bath & Body Works</label>
+        </div>
+
+    <div id="questions">
+		  <p>6. Which supermarket do you prefer? (Choose as many as you want)</p>
+    </div>
+        <div id="answers">
+   				<input type="checkbox" name="supermarket" id="winn-dixie" value="Winn-Dixie"> <label for="winn-dixie">Winn-Dixie</label>
+    			<br><input type="checkbox" name="supermarket" id="publix" value="Publix"> <label for="publix">Publix</label>
+   	 			<br><input type="checkbox" name="supermarket" id="target" value="Target"> <label for="target">Target</label>
+    			<br><input type="checkbox" name="supermarket" id="walmart" value="Walmart"> <label for="walmart">Walmart</label>
+        </div>
+
+    <div id="questions">
+		  <p>7. Which one of the listed bellow would be your dream vacation?</p>
+    </div>
+        <div id="answers">
+   				<input type="radio" name="dreamvacation" id="hawaii" value="Hawaii"> <label for="hawaii">Hawaii</label>
+    			<br><input type="radio" name="dreamvacation" id="maldives" value="Maldives"> <label for="maldives">Maldives</label> 
+   	 			<br><input type="radio" name="dreamvacation" id="las vegas" value="Las Vegas"> <label for="las vegas">Las Vegas</label>
+    			<br><input type="radio" name="dreamvacation" id="disneyland" value="DisneyLand"> <label for="disneyland">DisneyLand</label>
+        </div>
+
+    <div id="questions">
+		  <p>8. What is your favorite meal of the day?</p>
+    </div> 
+        <div id="answers">
+   				<input type="radio" name="meal" id="dose dessert count!" value="Dose Dessert Count!"> <label for="dose dessert count!">Dose Dessert count!</label>
+    			<br><input type="radio" name="meal" id="breakfast" value="Breakfast"> <label for="breakfast">Breakfast</label>
+   	 			<br><input type="radio" name="meal" id="dinner" value="Dinner"> <label for="dinner">Dinner</label>
+    			<br><input type="radio" name="meal" id="lunch" value="Lunch"> <label for="lunch">Lunch</label>
+        </div>
+
+    <div id="questions">
+		  <p>9. How old are you?</p>
+    </div>
+        <div id="answers">
+   				<input type="radio" name="old" id="50 and up" value="50 and up"> <label for="50 and up">50 and up</label> 
+    			<br><input type="radio" name="old" id="21-49" value="21-49"> <label for="21-49">21-49</label>
+   	 			<br><input type="radio" name="old" id="15-20" value="15-20"> <label for="15-20">15-20</label>
+    			<br><input type="radio" name="old" id="14 and younger" value="14 and younger"> <label for="14 and younger">14 and younger</label>
+        </div>
+    
+    <div id="questions">
+     <p>10. What is your favorite season?</p>
+    </div>
+        <div id="answers">
+   				<input type="radio" name="season" id="spring" value="Spring"> <label for="spring">Spring</label>
+    			<br><input type="radio" name="season" id="winter" value="Winter"> <label for="winter">Winter</label>
+   	 			<br><input type="radio" name="season" id="fall" value="Fall"> <label for="fall">Fall</label>
+    			<br><input type="radio" name="season" id="summer" value="Summer"> <label for="summer">Summer</label>
+		      <br><br><input type="button" id="calculate" value="Then which one am I">
+        </div>
+
+    </div>
+	</form>
+  </blockquote>
+  <p id='emojiParagraph'></p>
+</body>
+<script>
+var myEmojis = ['Laugh','Love','Cool','Silly'];
+var points = [0,0,0,0];
+
+function init(){
+  var button= document.getElementById('calculate');
+  button.onclick = checkQuiz;
+}
+
+function checkQuiz(){
+  var tvshow;
+  var movies;
+  var color;
+  var coffee;
+  var perfume;
+  var supermarket;
+  var dreamvacation;
+  var meal;
+  var old;
+  var season;
+  var inputs= document.getElementsByName('tvshow');
+    tvshow= findValue(inputs);
+    switch(tvshow) {
+      case 'Three\'s Company':
+        points [0]++;
+        break;
+      case 'Grey\'s Anatomy':
+        points [1]++;
+        break;
+      case 'Hannibal':
+        points [2]++;
+        break;
+      case 'Pokemon':
+        points [3]++;
+        break;
+    }
+  inputs= document.getElementsByName('movies');
+    movies= findValue(inputs);
+    switch(movies) {
+      case 'Big Daddy':
+        points [0]++;
+        break;
+      case 'The Intern':
+        points [1]++;
+        break;
+      case 'No Escape':
+        points [2]++;
+        break;
+      case 'Minions':
+        points [3]++;
+        break;
+    }
+  inputs= document.getElementsByName('color');
+    color= findValue(inputs);
+    switch(color) {
+      case 'Blue':
+        points [0]++;
+        break;
+      case 'Red':
+        points [1]++;
+        break;
+      case 'Black':
+        points [2]++;
+        break;
+      case 'Yellow':
+        points [3]++;
+        break;
+    }
+  inputs= document.getElementsByName('coffee');
+    coffee= findValue(inputs);
+    switch(coffee) {
+      case 'Latte':
+        points[0]++;
+        break;
+      case 'Macchiato':
+        points [1]++;
+        break;
+      case 'Espresso':
+        points [2]++;
+        break;
+      case 'I don\'t drink coffee':
+        points [3]++;
+        break;
+    }
+  inputs= document.getElementsByName('perfume');
+    perfume= findValue(inputs);
+    switch(perfume) {
+      case 'Chanel':
+        points [0]++;
+        break;
+      case 'Burberry':
+        points [1]++;
+        break;
+      case 'Davidoff':
+        points [2]++;
+        break;
+      case 'Bath & Body Works':
+        points [3]++;
+        break;
+    }
+  inputs= document.getElementsByName('supermarket');
+    supermarket= findValue(inputs);
+    switch(supermarket) {
+      case 'Winn-Dixie':
+        points [0]++;
+        break;
+      case 'Publix':
+        points [1]++;
+        break;
+      case 'Target':
+        points [2]++;
+        break;
+      case 'Walmart':
+        points [3]++;
+        break;
+    } 
+  inputs= document.getElementsByName('dreamvacation');
+    dreamvacation= findValue(inputs);
+    switch(dreamvacation) {
+      case 'Hawaii':
+        points [0]++;
+        break;
+      case 'Maldives':
+        points [1]++;
+        break;
+      case 'Las Vegas':
+        points [2]++;
+        break;
+      case 'DisneyLand':
+        points [3]++;
+        break;
+    }
+  inputs= document.getElementsByName('meal');
+    meal= findValue(inputs);
+    switch(meal) {
+      case 'Dose Dessert Count!':
+        points [0]++;
+        break;
+      case 'Breakfast':
+        points [1]++;
+        break;
+      case 'Dinner':
+        points [2]++;
+        break;
+      case 'Lunch':
+        points [3]++;
+        break;
+    }
+  inputs= document.getElementsByName('old');
+    old= findValue(inputs);
+    switch(old) {
+      case '50 and up':
+        points [0]++;
+        break;
+      case '21-49':
+        points [1]++;
+        break;
+      case '15-20':
+        points [2]++;
+        break;
+      case '14 and younger':
+        points [3]++;
+        break;
+    }
+  inputs= document.getElementsByName('season');
+    season= findValue(inputs);
+    switch(season) {
+      case 'Spring':
+        points [0]++;
+        break;
+      case 'Winter':
+        points [1]++;
+        break;
+      case 'Fall':
+        points [2]++;
+        break;
+      case 'Summer':
+        points [3]++;
+        break;
+    }
+    maxScore = 0;
+    maxIndex = 0;
+    for (var i=0; i<points.length; i++){
+      if (points[i] > maxScore){
+        maxIndex=i;
+      }
+    }
+    emoji= myEmojis[maxIndex];
+    displayEmoji(emoji);
+}
+
+  function findValue(inputs) {
+    var checked;
+    for (var i=0; i<inputs.length; i++) {
+      if (inputs[i].checked) {
+        //alert(inputs[i].value);
+        checked = inputs[i].value;
+        return(checked);
+      }
+    }
+    if (!checked) {
+      alert('Please choose a value.');
+    }
+  }
+
+function displayEmoji(emoji){
+  var image= document.createElement('img');
+  image.className= 'emoji';
+  var source = document.getElementById('emojiParagraph');
+  var text = 'Nice! You\'re the ' + emoji +' Emoji!';
+
+      switch(emoji){
+        case 'Laugh':
+          image.src='http://s23.postimg.org/mouqfxpqj/Laugh_Emoji.png';
+          break;
+        case 'Love':
+          image.src='http://s29.postimg.org/vr8nfmd8n/Love_Emoji.png';
+          break;
+        case 'Cool':
+          image.src='http://s28.postimg.org/pfw50epy5/Cool_Emoji.png';
+          break;
+        case 'Silly':
+          image.src='http://s18.postimg.org/6ffwv0a7t/Silly_Emoji.png';
+          break;
+        default:
+          image.src='http://s8.postimg.org/kn2ubklj9/Sad_Emoji.png';
+      }
+      source.appendChild(image);
+      source.innerHTML += '<br>' + text;
+} 
+window.onload= init; 
+
+</script>
+</html>
